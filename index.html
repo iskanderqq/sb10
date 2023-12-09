@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rubick</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+	<link rel="shortcut icon" href="img/linkimg.png">
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="container container_header">
+			<img src="img/logo.png" alt="" class="logo">
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="" class="nav__link">Главная</a></li>
+					<li class="nav__item"><a href="#about" class="nav__link">О герое</a></li>
+					<li class="nav__item"><a href="#video" class="nav__link">Видео</a></li>
+					<li class="nav__item"><a href="#gallary" class="nav__link">Галерея</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="main">
+		
+		<section class="hero-block">
+			<div class="container container_hero-block">
+				<img class="hero-block__img" src="img/hero-block.png" alt="">
+				<div class="hero-block__content">
+					<h2 class="hero-block__title">Rubick</h2>
+					<button class="hero-block__btn">Узнать подробнее</button>
+				</div>
+			</div>
+		</section>
+		<section class="about" id="about">
+			<div class="container container_about">
+				<h2 class="about__title">О герое</h2>
+				<div class="about__content">
+					<p class="about__text">Rubick неустанно ищет полезные вражеские способности, которые можно использовать против их бывших владельцев. Поднимая противников в воздух и указывая, где им упасть, Rubick сеет хаос в их рядах.</p>
+					<img class="about__img" src="img/about.png" alt="">
+				</div>
+			</div>
+		</section>
+		<section class="video" id="video">
+			<div class="container container_video">
+				<h2 class="video__title">Видео</h2>
+				<iframe class="video__video" src="https://www.youtube.com/embed/4EFlmeBI6FE?si=K2IHbVnnw3y07ZIH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+		</section>
+		<section class="gallary" id="gallary">
+			<h2 class="gallary__title">Галерея</h2>
+			<ul class="gallary__list">
+				<li class="gallary__item">
+					<a href="img/gallary1.png" class="gallary__link lightzoom">
+						<img src="img/gallary1.png" alt="" class="gallary__img">
+					</a>
+				</li>
+				<li class="gallary__item">
+					<a href="img/gallary2.png" class="gallary__link lightzoom">
+						<img src="img/gallary2.png" alt="" class="gallary__img">
+					</a>
+				</li>
+				<li class="gallary__item">
+					<a href="img/gallary3.png" class="gallary__link lightzoom">
+						<img src="img/gallary3.png" alt="" class="gallary__img">
+					</a>
+				</li>
+				<li class="gallary__item">
+					<a href="img/gallary4.png" class="gallary__link lightzoom">
+						<img src="img/gallary4.png" alt="" class="gallary__img">	
+					</a>
+				</li>
+			</ul>
+		</section>
+		<a href="#header" class="arrow__link">
+			<img src="img/arrow.png" alt="" class="arrow__img">
+		</a>
+	</main>
+	<footer class="footer">
+		<div class="container container_footer">
+			<div class="footer__content">
+				<h2 class="footer__title">Нуреев Искандер</h2>
+				<p class="footer__text">&copy; 2023. Все права защищены.</p>
+			</div>
+			<ul class="footer__list">
+				<li class="footer__item">
+					<a href="#" class="footer__link"> <img src="img/vk.png" alt="" class="footer__img"> </a>
+				</li>
+				
+				<li class="footer__item">
+					<a href="#" class="footer__link"> <img src="img/telegram.png" alt="" class="footer__img"> </a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+	<script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+	<script type="text/javascript">
+		jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});
+   </script>
+</body>
+</html>
